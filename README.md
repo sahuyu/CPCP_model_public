@@ -10,7 +10,7 @@ $\gamma\nu_{y_i}={F_i=\sum_{j}\ f_{i,j}+p}_i\ \ \ \ \ \ \ \ \ \ \ \ \ \ \left(1\
 
 $f_{i,j}=0,\ \ d_{i,j}\le l_{i,j}\ and\ f_{i,j}\ is\ normal\ \ \ \ \ \ \ \ \ \ (2.1)$
 
-$f_{i,j}=-\triangle_\beta\beta\left(d_{i,j}-{\triangle_ll}_{i,j}\right)\frac{y_i-y_j}{d_{i,j}}\delta_{i,j}\ ,\ if\ f_{i,j}\ is\ compacted\ \ \ \ \ \ \ \ \ \ \ (2.2)$
+$f_{i,j}=-\triangle_\beta\beta\left(d_{i,j}-\triangle_ll_{i,j}\right)\frac{y_i-y_j}{d_{i,j}}\delta_{i,j}\ ,\ if\ f_{i,j}\ is\ compacted\ \ \ \ \ \ \ \ \ \ \ \left(2.2\right)$
 
 $f_{i,j}=-\beta\left(d_{i,j}-l_{i,j}\right)\frac{y_i-y_j}{d_{i,j}}\delta_{i,j}\ \ \ \ \ ,d_{i,j}>l_{i,j}\ and\ f_{i,j}\ is\ normal\ \ \ \ \ \ \ \ \ \ \ (2.3)$
 
@@ -22,5 +22,5 @@ $d_{i,j}=yi-yj \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (4)$
 
 $\sigma_i\left(t\right)=t-∆ttpit'∆t \ \ \ \ \ \ \ \ \ \ \ \ \ where  pit'=∂pit∂yi \ \ \ \ \ \ \ \ \ \ \ \ \ (5)$
 
-4) PA deformation and stiff sensing. The intermediate springs that connect collagen and PA layers transmit cellular forces to the PA layer through the collagen lattices. Deformation of PA layer is calculated with a linear 2D finite element solver, using the same triangular mesh as the collagen lattices. The depth-mechanosensing of cells is implemented by measuring the depth-sensing parameter (σ) as shown in Eq. 5. $p_i (t)^'$ 
-is the derivative of the remaining force within intermediate springs ($p_i$, shown in Eq. 3) versus its displacement in horizontal plane. $σ_i (t)$ is the depth-sensing parameter of node i at time t, which is defined as the average of $p_i (t)^'$ over time (∆t). ∆t is 30min in all the simulations.  As shown in Fig. 4B, stiffer PA layer undergoes smaller deformation, which leaves higher remnant force within intermediate springs causes higher depth‐mechanosensing feedback. This depth-sensing parameter (σ) directly influences the migration, protrusion and contraction parameters of the corresponding cell.
+4) PA deformation and stiff sensing. The intermediate springs that connect collagen and PA layers transmit cellular forces to the PA layer through the collagen lattices. Deformation of PA layer is calculated with a linear 2D finite element solver, using the same triangular mesh as the collagen lattices. The depth-mechanosensing of cells is implemented by measuring the depth-sensing parameter (σ) as shown in Eq. 5. $p_i\left(t\right)^\prime$ 
+is the derivative of the remaining force within intermediate springs ($p_i$, shown in Eq. 3) versus its displacement in horizontal plane. $σ_i (t)$ is the depth-sensing parameter of node i at time t, which is defined as the average of $p_i\left(t\right)^\prime$ over time (∆t). ∆t is 30min in all the simulations.  As shown in Fig. 4B, stiffer PA layer undergoes smaller deformation, which leaves higher remnant force within intermediate springs causes higher depth‐mechanosensing feedback. This depth-sensing parameter (σ) directly influences the migration, protrusion and contraction parameters of the corresponding cell.
