@@ -8,7 +8,7 @@ For instance, as illustrated in Fig. S10A, a given cell node (black) is attached
 
 $$\gamma\nu_{y_i}={F_i=\sum_{j}\ f_{i,j}+p}_i\ \ \ \ \ \ \ \ \ \ \ \ \ \ \left(1\right)$$
 
-$$f_{i,j}=\left\{\begin{matrix}0\ \ \ \ \ \ \ \ \ \ \ \ ,d_{i,j}\le l_{i,j}\ and\ f_{i,j}\ is\ normal\\-\triangle_\beta\beta\left(d_{i,j}-{\triangle_ll}_{i,j}\right)\frac{y_i-y_j}{d_{i,j}}\delta_{i,j}\ ,\ if\ f_{i,j}\ is\ compacted\\-\beta\left(d_{i,j}-l_{i,j}\right)\frac{y_i-y_j}{d_{i,j}}\delta_{i,j}\ \ \ \ \ ,d_{i,j}>l_{i,j}\ and\ f_{i,j}\ is\ normal\\\end{matrix}\right.\ \ \ \ \ \ \ \left.\ \begin{matrix}(2.1)\\\begin{matrix}\\(2.2)\\\end{matrix}\\\begin{matrix}\\(2.3)\\\end{matrix}\\\end{matrix}\right\}$$
+\[f_{i,j}=\left\{\begin{matrix}0\ \ \ \ \ \ \ \ \ \ \ \ ,d_{i,j}\le l_{i,j}\ and\ f_{i,j}\ is\ normal\\-\triangle_\beta\beta\left(d_{i,j}-{\triangle_ll}_{i,j}\right)\frac{y_i-y_j}{d_{i,j}}\delta_{i,j}\ ,\ if\ f_{i,j}\ is\ compacted\\-\beta\left(d_{i,j}-l_{i,j}\right)\frac{y_i-y_j}{d_{i,j}}\delta_{i,j}\ \ \ \ \ ,d_{i,j}>l_{i,j}\ and\ f_{i,j}\ is\ normal\\\end{matrix}\right.\ \ \ \ \ \ \ \left.\ \begin{matrix}(2.1)\\\begin{matrix}\\(2.2)\\\end{matrix}\\\begin{matrix}\\(2.3)\\\end{matrix}\\\end{matrix}\right\}\]
 
 $$p_i=-\beta\left(1-\frac{h_0}{\sqrt{{h_0}^2+\left(y_i-z_i\right)^2}}\right)\ \left(y_i-z_i\right)\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (3)$$
 $$d_{i,j}=yi-yj                                                                                                  (4)$$
